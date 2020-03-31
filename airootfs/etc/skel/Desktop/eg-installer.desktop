@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=EG-Installer
+Comment=
+Exec=/usr/bin/eg-installer -r 3
+Icon=/usr/share/icons/Papirus-Dark/64x64/apps/calamares.svg
+Path=
+Terminal=false
+StartupNotify=false
+Name[ja_JP.UTF-8]=パッケージインストーラー
