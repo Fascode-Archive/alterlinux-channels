@@ -12,9 +12,6 @@
 # This configuration file follows the bash syntax.
 #
 
-# OS name used for the name of the image file.
-iso_name=madeleine
-
 # Image file label
 iso_label="Madeine_$(date +%Y%m%d)"
 
@@ -22,14 +19,10 @@ iso_label="Madeine_$(date +%Y%m%d)"
 iso_publisher='Yahada Hayao <https://twitter.com/Hayao0819>'
 
 # Image file name (not file name)
-iso_application="Madeleine OS Live/Rescue CD"
+iso_application="AlterLinux Madeleine Live/Rescue CD"
 
 # Directory name used for installation
 install_dir=madeleine
-
-# User settings
-username=madeleine
-password=madeleine
 
 # Set to true to enable plymouth.(-b)
 boot_splash=false
