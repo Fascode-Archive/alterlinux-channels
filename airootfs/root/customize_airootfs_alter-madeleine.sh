@@ -56,5 +56,5 @@ function remove () {
 # Replace file
 remove /usr/share/backgrounds/xfce/xfce-stripes.png
 ln -s /usr/share/backgrounds/archlinux.jpg /usr/share/backgrounds/xfce/xfce-stripes.png
-[[ -f /usr/share/backgrounds/alter.png ]] && chmod 644 /usr/share/backgrounds/alter.png
+[[ -f /usr/share/backgrounds/archlinux.jpg ]] && chmod 644 /usr/share/backgrounds/archlinux.jpg
 remove /usr/share/calamares/branding/manjaro
