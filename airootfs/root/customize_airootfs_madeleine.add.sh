@@ -14,15 +14,17 @@ set -e -u
 # All values can be changed by arguments.
 password=alter
 boot_splash=false
-kernel=core
+kernel='zen'
 theme_name=alter-logo
 rebuild=false
 japanese=false
 username='alter'
+os_name="Alter Linux"
+install_dir="alter"
 
 
 # Parse arguments
-while getopts 'p:bt:k:rxju:' arg; do
+while getopts 'p:bt:k:rxju:o:i:' arg; do
     case "${arg}" in
         p) password="${OPTARG}" ;;
         b) boot_splash=true ;;
@@ -31,6 +33,8 @@ while getopts 'p:bt:k:rxju:' arg; do
         r) rebuild=true ;;
         j) japanese=true;;
         u) username="${OPTARG}" ;;
+        o) os_name="${OPTARG}" ;;
+        i) install_dir="${OPTARG}" ;;
         x) set -xv ;;
     esac
 done
