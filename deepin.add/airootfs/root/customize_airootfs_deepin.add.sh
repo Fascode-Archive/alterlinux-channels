@@ -58,11 +58,11 @@ function remove () {
 
 
 # Replace wallpaper.
-#if [[ -f /usr/share/backgrounds/xfce/xfce-stripes.png ]]; then
-#    remove /usr/share/backgrounds/xfce/xfce-stripes.png
-#    ln -s /usr/share/backgrounds/alter.png /usr/share/backgrounds/xfce/xfce-stripes.png
-#fi
-#[[ -f /usr/share/backgrounds/alter.png ]] && chmod 644 /usr/share/backgrounds/alter.png
+if [[ -f /usr/share/backgrounds/deepin/desktop.jpg ]]; then
+    remove /usr/share/backgrounds/deepin/desktop.jpg
+    ln -s /usr/share/backgrounds/alter.png /usr/share/backgrounds/deepin/desktop.jpg
+fi
+[[ -f /usr/share/backgrounds/alter.png ]] && chmod 644 /usr/share/backgrounds/alter.png
 
 
 # Bluetooth
