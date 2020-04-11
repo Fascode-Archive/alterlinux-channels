@@ -1,0 +1,56 @@
+# 
+# Alter Linux package list
+#
+# Yamada Hayao 
+# Twitter: @Hayao0819
+# Email  : hayao@fascone.net
+#
+# (c) 2019-2020 Fascode Network.
+#
+# Deepin Desktop Environment
+
+
+#-- deepin --#
+deepin-account-faces
+deepin-anything	
+deepin-api
+deepin-calendar
+deepin-control-center
+deepin-daemon
+deepin-desktop-base
+deepin-desktop-schemas
+deepin-dock
+deepin-file-manager
+deepin-gtk-theme
+deepin-image-viewer
+deepin-launcher
+deepin-menu
+deepin-network-utils
+deepin-polkit-agent-ext-gnomekeyring
+deepin-qt5dxcb-plugin
+deepin-qt5integration
+deepin-screensaver
+deepin-session-ui
+deepin-shortcut-viewer
+deepin-sound-theme
+deepin-system-monitor
+deepin-turbo
+deepin-wallpapers
+startdde
+
+
+#-- deepin-extra --#
+deepin-boot-maker
+deepin-calculator
+deepin-clone
+# deepin-community-wallpapers
+deepin-draw
+deepin-editor
+deepin-movie
+deepin-music
+deepin-picker
+deepin-screen-recorder
+deepin-screensaver-pp
+deepin-screenshot
+deepin-terminal
+deepin-voice-recorder
