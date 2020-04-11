@@ -54,3 +54,9 @@ deepin-screensaver-pp
 deepin-screenshot
 deepin-terminal
 deepin-voice-recorder
+
+
+#-- xorg --#
+gpm
+xorg-server
+xorg-xinit
