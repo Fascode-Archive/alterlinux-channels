@@ -9,5 +9,5 @@ export UNZIPOPT=-OCP932
 # No beep
 xset -b
 
-# Start xfce4
-exec startxfce4
+# Start deepin
+exec startdde
