@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Gmail
+Exec=/usr/bin/chromium --profile-directory=Default --app-id=fmideopccpdjppefpaagipkmffdldnbp
+Icon=chrome-fmideopccpdjppefpaagipkmffdldnbp-Default
+StartupWMClass=crx_fmideopccpdjppefpaagipkmffdldnbp
+Comment=Gmailを開きます
+Path=
+StartupNotify=false
+X-XFCE-Source=file:///home/growth/.local/share/applications/chrome-fmideopccpdjppefpaagipkmffdldnbp-Default.desktop
