@@ -42,7 +42,7 @@ boot_splash=false
 japanese=false
 
 # Set the user's default shell.
-usershell="/bin/zsh"
+usershell="/bin/bash"
 
 # Set the live environment user name
 username="growth"
