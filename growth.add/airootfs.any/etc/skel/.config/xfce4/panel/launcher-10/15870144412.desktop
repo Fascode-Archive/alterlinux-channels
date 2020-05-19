@@ -3,8 +3,8 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Gmail
-Exec=/usr/bin/chromium --profile-directory=Default --app-id=fmideopccpdjppefpaagipkmffdldnbp
-Icon=chrome-fmideopccpdjppefpaagipkmffdldnbp-Default
+Exec=/usr/bin/chromium gmail.com
+Icon=gmail
 StartupWMClass=crx_fmideopccpdjppefpaagipkmffdldnbp
 Comment=Gmailを開きます
 Path=
