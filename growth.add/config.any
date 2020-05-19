@@ -12,5 +12,40 @@
 # This configuration file follows the bash syntax.
 #
 
+# OS name used for startup screen, etc.
+os_name="Growth Linux"
+
+# OS name used for the name of the image file.
+iso_name=growthlinux
+
+# Image file label
+iso_label="GROWTH_$(date +%Y%m)"
+
+# Image file creator information
+iso_publisher="Yamada Hayao <hayao@fascode.net>"
+
+# Image file name (not file name)
+iso_application="Growth Linux Live/Rescue CD"
+
+# Image file version
+iso_version=$(date +%Y.%m.%d)
+
+# Directory name used for installation
+install_dir=growth
+
+# Set to true to enable plymouth.(-b)
+boot_splash=false
+
+# Set the Japanese mode.
+# When this is enabled, the packages in the japanese package list will be installed.
+# A file for Japanese input is added.
+japanese=false
+
 # Set the user's default shell.
 usershell="/bin/zsh"
+
+# Set the live environment user name
+username="growth"
+
+# Set the live environment user password
+password="growth"
