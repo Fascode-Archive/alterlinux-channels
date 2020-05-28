@@ -16,7 +16,7 @@ alterlinux-wallpapers
 
 #-- deepin --#
 deepin-account-faces
-deepin-anything	
+deepin-anything
 deepin-api
 deepin-calendar
 deepin-control-center
@@ -27,6 +27,7 @@ deepin-dock
 deepin-file-manager
 deepin-gtk-theme
 deepin-image-viewer
+deepin-kwin
 deepin-launcher
 deepin-menu
 deepin-network-utils
@@ -34,6 +35,7 @@ deepin-polkit-agent-ext-gnomekeyring
 deepin-qt5dxcb-plugin
 deepin-qt5integration
 deepin-screensaver
+deepin-session-shell
 deepin-session-ui
 deepin-shortcut-viewer
 deepin-sound-theme
@@ -44,6 +46,7 @@ startdde
 
 
 #-- deepin-extra --#
+deepin-album
 deepin-boot-maker
 deepin-calculator
 deepin-clone
@@ -53,14 +56,8 @@ deepin-editor
 deepin-movie
 deepin-music
 deepin-picker
+deepin-reader
 deepin-screen-recorder
 deepin-screensaver-pp
 deepin-screenshot
 deepin-terminal
-# deepin-voice-recorder
-
-
-#-- xorg --#
-gpm
-xorg-server
-xorg-xinit
