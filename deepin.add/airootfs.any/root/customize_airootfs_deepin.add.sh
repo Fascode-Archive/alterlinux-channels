@@ -21,10 +21,12 @@ japanese=false
 username='alter'
 os_name="Alter Linux"
 install_dir="alter"
+usershell="/bin/bash"
+debug=true
 
 
 # Parse arguments
-while getopts 'p:bt:k:rxju:o:i:' arg; do
+while getopts 'p:bt:k:rxju:o:i:s:da:' arg; do
     case "${arg}" in
         p) password="${OPTARG}" ;;
         b) boot_splash=true ;;
@@ -35,7 +37,10 @@ while getopts 'p:bt:k:rxju:o:i:' arg; do
         u) username="${OPTARG}" ;;
         o) os_name="${OPTARG}" ;;
         i) install_dir="${OPTARG}" ;;
-        x) set -xv ;;
+        s) usershell="${OPTARG}" ;;
+        d) debug=true ;;
+        x) debug=true; set -xv ;;
+        a) arch="${OPTARG}"
     esac
 done
 
@@ -72,3 +77,19 @@ systemctl enable bluetooth
 
 # Update system datebase
 dconf update
+
+# Added autologin group to auto login
+groupadd autologin
+usermod -aG autologin ${username}
+
+
+# Enable LightDM to auto login
+if [[ "${boot_splash}" =  true ]]; then
+    systemctl enable lightdm.service
+else
+    systemctl enable lightdm-plymouth.service
+fi
+
+
+# Replace auto login user
+sed -i s/%USERNAME%/${username}/g /etc/lightdm/lightdm.conf
