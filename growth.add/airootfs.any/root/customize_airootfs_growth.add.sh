@@ -73,3 +73,19 @@ fi
 # Bluetooth
 rfkill unblock all
 systemctl enable bluetooth
+
+# Added autologin group to auto login
+groupadd autologin
+usermod -aG autologin ${username}
+
+
+# Enable LightDM to auto login
+if [[ "${boot_splash}" =  true ]]; then
+    systemctl enable lightdm-plymouth.service
+else
+    systemctl enable lightdm.service
+fi
+
+
+# Replace auto login user
+sed -i s/%USERNAME%/${username}/g /etc/lightdm/lightdm.conf
