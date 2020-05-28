@@ -1,1 +1,1 @@
-Build ArchLinux as is. Boot splash etc. cannot be used.
+I486-only minimal OS for sunset.
