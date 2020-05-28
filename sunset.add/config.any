@@ -27,9 +27,6 @@ iso_publisher="Sunset OS <https://fascode.net>"
 # Image file name (not file name)
 iso_application="Sunset OS Live/Rescue CD"
 
-# Image file version
-iso_version=$(date +%Y.%m.%d)
-
 # Directory name used for installation
 install_dir=sunset
 
