@@ -15,7 +15,7 @@ xorg-bdftopcf
 xorg-docs
 xorg-font-util
 xorg-font-utils
-xorg-fonts-100dpi|
+xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-fonts-alias
 xorg-fonts-encodings
@@ -26,7 +26,7 @@ xorg-mkfontscale
 xorg-server
 xorg-server-common
 xorg-server-devel
-xorg-server-xdmx
+#xorg-server-xdmx
 xorg-server-xephyr
 xorg-server-xnest
 xorg-server-xvfb
