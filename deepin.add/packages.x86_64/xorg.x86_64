@@ -14,10 +14,8 @@ gpm
 xorg-bdftopcf
 xorg-docs
 xorg-font-util
-xorg-font-utils
 xorg-fonts-100dpi
 xorg-fonts-75dpi
-xorg-fonts-alias
 xorg-fonts-encodings
 xorg-fonts-misc
 xorg-iceauth
