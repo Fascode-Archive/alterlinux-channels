@@ -5,9 +5,8 @@ AlterLinuxの`channels`にこのリポジトリをクローンすると非公式
 ## 使い方
 
 ```bash
-git clone https://github.com/FascodeNet/alterlinux.git ./alterlinux/
-git clone https://github.com/Hayao0819/alterlinux-channels.git ./alterlinux/channels/unofficial
-mv ./alterlinux/channels/unofficial/*.add ./alterlinux/channels/
-rm -r ./alterlinux/channels/unofficial
-sudo ./alterlinux/build.sh -b <channel name>
+mkdir alterlinux-channels
+git clone https://github.com/Hayao0819/alterlinux-channels.git  ./alterlinux-channels
+cd ./alterlinux-channels
+sudo ./start-build.sh -o '-b' <channel_name>
 ```
