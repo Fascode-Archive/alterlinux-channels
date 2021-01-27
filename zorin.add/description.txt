@@ -1,1 +1,1 @@
-Gnome customized with extension and software for beginner
+Reproduced Zorin OS UI on Arch Linux
