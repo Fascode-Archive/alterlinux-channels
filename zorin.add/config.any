@@ -22,3 +22,19 @@ noaur=false
 # Include files of share-extra channel
 # This setting cannot be changed by an argument.
 include_extra=true
+
+# OS name used for startup screen, etc.
+# This setting cannot be changed by an argument.
+os_name="Zorin OS"
+
+# OS name used for the name of the image file.
+# This setting cannot be changed by an argument.
+iso_name=zorin
+
+# Image file label
+# This setting cannot be changed by an argument.
+iso_label="ZORIN_$(date +%Y%m%d)"
+
+# Directory name used for installation
+# This setting cannot be changed by an argument.
+install_dir="zorin"
